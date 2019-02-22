@@ -34,6 +34,9 @@
         <url>https://travis-ci.org/lapps/org.lappsgrid.maven.groovy-parent-pom</url>
         <system>travis</system>
     </ciManagement>
+    <properties>
+        <groovy.version>2.5.3</groovy.version>
+    </properties>
     <build>
         <plugins>
             <plugin>
@@ -96,9 +99,9 @@
     <dependencies>
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
-            <artifactId>groovy-all</artifactId>
-            <version>2.5.3</version>
-            <type>pom</type>
+            <artifactId>groovy</artifactId>
+            <version>${groovy.version}</version>
+            <!-- <type>pom</type> -->
         </dependency>
         <dependency>
             <groupId>org.apache.ivy</groupId>
