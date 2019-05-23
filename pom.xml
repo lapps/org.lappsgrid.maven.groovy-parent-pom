@@ -100,12 +100,7 @@
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy</artifactId>
-<<<<<<< HEAD
-            <version>2.5.3</version>
-=======
             <version>${groovy.version}</version>
-            <!-- <type>pom</type> -->
->>>>>>> b6f8a687a7a91b7be4f2b1c1ccd66bbf21e02692
         </dependency>
         <dependency>
             <groupId>org.apache.ivy</groupId>
